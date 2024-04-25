@@ -4,18 +4,25 @@
 
 /* header */
 
+.page-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0rem 20rem;
+}
+
 .header-nav {
   display: flex;
   list-style: none;
   gap: 10px;
 }
+.header-nav a {
+  transition: 0.3s ease;
+}
 
-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 20rem;
+.header-nav a:hover {
+  color: #65d5c9;
+  transition: 0.3s ease;
 }
 
 .header-nav a {
@@ -24,7 +31,7 @@ header {
   color: white;
 }
 
-#hero-section {
+.page-top {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: white;
   background-image: url("./photoshop/design-assets/bgk-header.png");
@@ -56,6 +63,7 @@ header {
 .header-company-name {
   color: #65d5c9;
   margin: 1rem;
+  font-size: 2rem;
 }
 
 #hero-section header-nav {
