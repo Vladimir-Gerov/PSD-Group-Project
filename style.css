@@ -1,35 +1,114 @@
 * {
-    margin 0;
+  margin: 0;
 }
 
-nav {
-    color: red;
+/* header */
+
+.header-nav {
+  display: flex;
+  list-style: none;
+  gap: 10px;
 }
 
-#hero-section{
-    color: blue;
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 20rem;
 }
 
-#our_story-section{
-color: green;
+.header-nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
 }
 
-#watch-section{
-    color: darkred;
+#hero-section {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  background-image: url("./photoshop/design-assets/bgk-header.png");
+  height: 670px;
+  width: 1600px;
 }
 
-#expertise-section{
-    color: fuchsia;
+.hero-text {
+  padding: 10% 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
 }
 
-#team-section{
-    color: yellowgreen;
+.hero-text p {
+  text-align: center;
 }
 
-#contact_client-section{
-    color: lightsalmon;
+.hero-text h2 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2rem;
 }
 
-footer{
-    color: blueviolet;
+.main-logo {
+  display: flex;
+}
+
+.header-company-name {
+  color: #65d5c9;
+  margin: 1rem;
+}
+
+#hero-section header-nav {
+  background-color: aqua;
+}
+
+#our_story-section {
+  color: green;
+}
+
+.hero-line {
+  margin: -1.5rem;
+  border: 0.1rem solid #65d5c9;
+}
+
+.learn-more_btn {
+  letter-spacing: 0.1rem;
+  list-style: none;
+  text-decoration: none;
+  color: #65d5c9;
+  border: solid #65d5c9;
+  border-width: 2px;
+  padding: 1rem;
+  font-size: 0.75rem;
+  border-radius: 3px;
+}
+
+/* watch */
+
+#watch-section {
+  display: fleX;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  color: white;
+  background-image: url("./photoshop/design-assets/bgk-middle.png");
+  height: 550px;
+  width: 1600px;
+}
+
+#expertise-section {
+  color: fuchsia;
+}
+
+#team-section {
+  color: yellowgreen;
+}
+
+#contact_client-section {
+  color: lightsalmon;
+}
+
+footer {
+  color: blueviolet;
 }
