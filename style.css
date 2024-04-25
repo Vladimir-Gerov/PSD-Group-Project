@@ -5,10 +5,13 @@
 /* header */
 
 .page-menu {
+  /* position: sticky; */
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0rem 20rem;
+  /* top: 0px;
+  z-index: 1; */
 }
 
 .header-nav {
