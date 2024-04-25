@@ -1,35 +1,66 @@
 * {
-    margin 0;
+  margin: 0 auto;
+  background-color: #2b2a52;
+}
+/* Story section */
+
+/* #our_story-section
+  .storycontainer
+  .story-section
+  .story-logo
+  .story-img
+  .story-text
+  .story-title
+  .btn-story */
+
+.story-section {
+  padding: 40px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+  background: #fff;
+  display: flex;
+  min-height: 300px;
 }
 
-nav {
-    color: red;
+.story-logo {
+  background: #fff;
+  margin: 0px 80px 0px 80px;
+  min-width: 100px;
 }
 
-#hero-section{
-    color: blue;
+.story-img {
+  background: #fff;
+  width: 100%;
 }
 
-#our_story-section{
-color: green;
+.story-title {
+  background: #fff;
+  margin-bottom: -10px;
 }
 
-#watch-section{
-    color: darkred;
+.story-text {
+  margin: 0;
+  max-width: 500px;
+  background: #fff;
 }
 
-#expertise-section{
-    color: fuchsia;
+.story-text > p {
+  margin-top: 35px;
+  background: #fff;
 }
 
-#team-section{
-    color: yellowgreen;
-}
-
-#contact_client-section{
-    color: lightsalmon;
-}
-
-footer{
-    color: blueviolet;
+.btn-story {
+  margin-top: 35px;
+  background: none;
+  border-radius: 3px;
+  background: #fff;
+  border-color: #4fd5c6;
+  color: #4fd5c6;
+  padding: 10px;
+  letter-spacing: 1px;
+  font-weight: 500;
 }
