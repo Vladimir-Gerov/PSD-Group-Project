@@ -2,6 +2,8 @@
   margin: 0;
 }
 
+/* header */
+
 .header-nav {
   display: flex;
   list-style: none;
@@ -17,13 +19,13 @@ header {
 }
 
 .header-nav a {
-  font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
   text-transform: uppercase;
   color: white;
 }
 
 #hero-section {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: white;
   background-image: url("./photoshop/design-assets/bgk-header.png");
   height: 670px;
@@ -42,8 +44,18 @@ header {
   text-align: center;
 }
 
+.hero-text h2 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2rem;
+}
+
+.main-logo {
+  display: flex;
+}
+
 .header-company-name {
-  color: white;
+  color: #65d5c9;
+  margin: 1rem;
 }
 
 #hero-section header-nav {
@@ -53,6 +65,25 @@ header {
 #our_story-section {
   color: green;
 }
+
+.hero-line {
+  margin: -1.5rem;
+  border: 0.1rem solid #65d5c9;
+}
+
+.learn-more_btn {
+  letter-spacing: 0.1rem;
+  list-style: none;
+  text-decoration: none;
+  color: #65d5c9;
+  border: solid #65d5c9;
+  border-width: 2px;
+  padding: 1rem;
+  font-size: 0.75rem;
+  border-radius: 3px;
+}
+
+/* watch */
 
 #watch-section {
   display: fleX;
