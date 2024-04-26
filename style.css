@@ -107,6 +107,10 @@
 #expertise-section {
   color: fuchsia;
 }
+
+
+
+/* STORY SECTION START */
 .story-section {
   padding: 40px;
   margin: 0 auto;
@@ -158,6 +162,10 @@
   letter-spacing: 1px;
   font-weight: 500;
 }
+
+/* STORY SECTION END */
+
+
 
 /* Footer styling */
 
