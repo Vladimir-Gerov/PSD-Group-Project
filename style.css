@@ -11,14 +11,16 @@ html {
 /* header */
 
 .page-menu {
-  /* position: sticky; */
+  position: sticky;
+  top: 0;
+  /* right: 0;
+  width: 1600px; */
+  background-image: url("./photoshop/design-assets/bgk-header.png");
+  background-repeat: no-repeat;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0rem 20rem;
-  top: 0px;
-  z-index: 0;
-  /* overflow: clip; */
+  padding: 0 20rem;
 }
 
 @media screen and (max-width: 1400px) {
@@ -27,17 +29,22 @@ html {
     padding: 0rem 0;
   }
 }
+nav {
+  display: flex;
+  gap: 10px;
+}
+
+@media screen and (max-width: 700px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 
 .header-nav {
   display: flex;
   list-style: none;
   gap: 10px;
-}
-
-@media screen and (max-width: 700px) {
-  .header-nav {
-    flex-direction: column;
-  }
 }
 
 .header-nav a {
@@ -63,7 +70,7 @@ html {
   max-height: auto;
   max-width: 1600px;
   min-width: auto;
-  margin: auto auto;
+  margin: auto;
 }
 
 .hero-text {
@@ -72,6 +79,7 @@ html {
   flex-direction: column;
   align-items: center;
   gap: 3rem;
+  margin: auto;
 }
 
 .hero-text p {
@@ -127,7 +135,7 @@ html {
   background-image: url("./photoshop/design-assets/bgk-middle.png");
   height: 550px;
   max-width: 1600px;
-  margin: 0 auto;
+  margin: auto auto;
 }
 
 /* Expertise */
