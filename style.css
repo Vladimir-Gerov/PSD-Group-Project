@@ -150,6 +150,8 @@ nav {
 }
 
 .story-title {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2rem;
   background: #fff;
   margin-bottom: -0.6rem;
   text-align: left;
@@ -170,12 +172,12 @@ nav {
   margin-top: 2rem;
   background: none;
   border-radius: 3px;
-  background: #fff;
-  border-color: #4fd5c6;
-  color: #4fd5c6;
+  border: 2px solid #a0e8df;
+  color: #65d5c9;
   padding: 1rem;
   letter-spacing: 1px;
-  font-weight: 500;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
   text-decoration: none;
 }
 
@@ -253,6 +255,64 @@ h2 {
 }
 
 /* TEAM SECTION */
+
+.team-section {
+  border: 5px solid red;
+  max-width: 1600px;
+  margin: 0 auto;
+  text-align: center;
+  background-image: url("./photoshop/design-assets/bgk-header.png");
+  background-position: center;
+  background-size: cover;
+  color: white;
+  padding: 3rem 1rem 3rem 1rem;
+}
+
+.team-header{
+  border: 5px solid red;
+  text-align: center;
+}
+
+.team-line {
+  /* border: 5px solid red; */
+  display: flex;
+  margin: 1.5rem;
+  border: 0.1rem solid #65d5c9;
+}
+
+.team-members-cards-container {
+  border: 5px solid red;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-width: 300px;
+  gap: 1rem;
+  margin: 1rem;
+  margin-bottom: 3rem;
+}
+
+.team-members-cards {
+/* justify-content: center; */
+border: 0.1px solid white;
+
+}
+
+.team-headshot-name {
+  margin-top: -4px;
+  padding-top: 1rem;
+  border-top: 1px solid white;
+
+}
+
+.member-img{
+  min-width: 100px;
+  max-width: 200px;
+}
+
+.team-headshot-title {
+  padding-bottom: 1.5rem;
+  padding-top: 0.3rem;
+}
 
 /* TEAM SECTION END */
 
