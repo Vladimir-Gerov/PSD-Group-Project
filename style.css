@@ -309,7 +309,7 @@ h2 {
 /* TEAM SECTION */
 
 .team-section {
-  border: 5px solid red;
+  /* border: 5px solid red; */
   max-width: 1600px;
   margin: 0 auto;
   text-align: center;
@@ -321,7 +321,7 @@ h2 {
 }
 
 .team-header{
-  border: 5px solid red;
+  /* border: 5px solid red; */
   text-align: center;
 }
 
@@ -333,7 +333,7 @@ h2 {
 }
 
 .team-members-cards-container {
-  border: 5px solid red;
+  /* border: 5px solid red; */
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
