@@ -303,6 +303,7 @@
 
 /* Medium devices such as tablets (768px and 1023px) */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
+  /* Footer start */
   .footer-sections-wrapper {
     width: 90%;
     margin: 1rem auto;
@@ -330,10 +331,13 @@
     text-decoration: none;
     font-size: 1rem;
   }
+
+  /* Footer End */
 }
 
 /* Large devices such as laptops (1024px and 1280px) */
 @media only screen and (min-width: 64em) and (max-width: 80em) {
+  /* Footer start */
   .footer-sections-wrapper {
     width: 60%;
     margin: 1rem auto;
@@ -361,10 +365,13 @@
     text-decoration: none;
     font-size: 1rem;
   }
+
+  /* Footer End */
 }
 
 /* Largest devices such as desktops (1280px and up) */
 @media only screen and (min-width: 80em) {
+  /* Footer start */
   .footer-sections-wrapper {
     width: 60%;
     margin: 1rem auto;
@@ -392,4 +399,6 @@
     text-decoration: none;
     font-size: 1rem;
   }
+
+  /* Footer End */
 }
