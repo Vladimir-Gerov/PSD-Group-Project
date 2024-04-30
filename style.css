@@ -401,19 +401,17 @@ h2 {
 }
 
 .team-members-cards {
-/* justify-content: center; */
-border: 0.1px solid white;
-
+  /* justify-content: center; */
+  border: 0.1px solid white;
 }
 
 .team-headshot-name {
   margin-top: -4px;
   padding-top: 1rem;
   border-top: 1px solid white;
-
 }
 
-.member-img{
+.member-img {
   min-width: 100px;
   max-width: 200px;
 }
@@ -424,6 +422,59 @@ border: 0.1px solid white;
 }
 
 /* TEAM SECTION END */
+
+/* Contact and client */
+
+.contact-client-section {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1600px;
+  width: 60%;
+  margin: 1rem auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 1rem;
+}
+.contact-form {
+  width: 20rem;
+}
+.contact-title {
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+.contact-form-input {
+  width: 20rem;
+}
+
+.submit_btn {
+  letter-spacing: 0.1rem;
+  list-style: none;
+  text-decoration: none;
+  color: #65d5c9;
+  border: solid #65d5c9;
+  border-width: 2px;
+  padding: 0.5rem;
+  font-size: 0.7rem;
+  border-radius: 3px;
+}
+
+.input-container {
+  width: 20rem;
+  padding: 0.5rem 0.75rem;
+  border-radius: 7px;
+}
+.client-section {
+}
+.client-title {
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+.client-icons {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 2rem;
+  row-gap: 2rem;
+}
 
 /* Footer styling */
 
