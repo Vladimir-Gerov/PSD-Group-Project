@@ -1,11 +1,11 @@
 * {
   margin: 0;
   padding: 0;
-  /* box-sizing: border-box; */
+  box-sizing: border-box;
 }
 
 html {
-  scroll-behavior: s/mooth;
+  scroll-behavior: smooth;
 }
 
 /* header */
@@ -256,6 +256,11 @@ text-align: center;
   margin: auto auto;
 }
 
+#watch-section a img:hover {
+  filter: drop-shadow(0 0 2rem #65d5c9);
+  transition: 0.3s ease;
+}
+
 /* Expertise */
 
 #expertise-section {
@@ -348,17 +353,6 @@ h2 {
   margin-top: 20px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
 /* TEAM SECTION */
 
 .team-section {
@@ -373,7 +367,6 @@ h2 {
   color: white;
   padding: 3rem 1rem 3rem 1rem;
 }
-
 
 .team-header {
   /* border: 5px solid red; *
